@@ -1,0 +1,20 @@
+# --- simulation outputs (large, regenerable) ---
+results_*/
+*.h5
+gates*.tsv
+
+# --- HPC logs ---
+*.slurmout
+*.slurmerr
+Nest_*
+opt_work/
+opt_k*/
+
+# --- python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- os / editor ---
+.DS_Store
+*.swp

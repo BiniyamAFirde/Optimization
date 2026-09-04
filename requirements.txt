@@ -1,0 +1,7 @@
+# NEST is NOT installable via pip — see https://nest-simulator.readthedocs.io
+# Everything below is pip-installable.
+numpy>=1.21
+scipy>=1.7
+h5py>=3.0
+matplotlib>=3.4
+cma>=3.2        # only needed for optimize/optimize_cmaes.py
