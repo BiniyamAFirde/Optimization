@@ -1,0 +1,8 @@
+n100_k025_stdpoff	--target-neurons 100 --neuron-scope izh_both_legs --k-conn 0.25 --inh-comp 3.0 --stdp off --act-gate-k-f 30
+n100_k025_stdpcut_bs	--target-neurons 100 --neuron-scope izh_both_legs --k-conn 0.25 --inh-comp 3.0 --stdp cut_bs --act-gate-k-f 30
+n100_k050_stdpoff	--target-neurons 100 --neuron-scope izh_both_legs --k-conn 0.50 --inh-comp 3.0 --stdp off --act-gate-k-f 30
+n100_k050_stdpcut_bs	--target-neurons 100 --neuron-scope izh_both_legs --k-conn 0.50 --inh-comp 3.0 --stdp cut_bs --act-gate-k-f 30
+n100_k075_stdpoff	--target-neurons 100 --neuron-scope izh_both_legs --k-conn 0.75 --inh-comp 3.0 --stdp off --act-gate-k-f 30
+n100_k075_stdpcut_bs	--target-neurons 100 --neuron-scope izh_both_legs --k-conn 0.75 --inh-comp 3.0 --stdp cut_bs --act-gate-k-f 30
+n100_k100_stdpoff	--target-neurons 100 --neuron-scope izh_both_legs --k-conn 1.00 --inh-comp 3.0 --stdp off --act-gate-k-f 30
+n100_k100_stdpcut_bs	--target-neurons 100 --neuron-scope izh_both_legs --k-conn 1.00 --inh-comp 3.0 --stdp cut_bs --act-gate-k-f 30

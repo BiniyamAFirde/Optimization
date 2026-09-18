@@ -19,3 +19,8 @@ __pycache__/
 .DS_Store
 *.swp
 .DS_Store
+results/
+*.h5
+*.log
+__pycache__/
+.DS_Store

@@ -1,0 +1,5 @@
+n100_kf05	--target-neurons 100 --neuron-scope izh_both_legs --k-conn 1.00 --inh-comp 3.0 --stdp cut_bs --act-gate-k-f 5
+n100_kf10	--target-neurons 100 --neuron-scope izh_both_legs --k-conn 1.00 --inh-comp 3.0 --stdp cut_bs --act-gate-k-f 10
+n100_kf15	--target-neurons 100 --neuron-scope izh_both_legs --k-conn 1.00 --inh-comp 3.0 --stdp cut_bs --act-gate-k-f 15
+n100_kf20	--target-neurons 100 --neuron-scope izh_both_legs --k-conn 1.00 --inh-comp 3.0 --stdp cut_bs --act-gate-k-f 20
+n100_kf30	--target-neurons 100 --neuron-scope izh_both_legs --k-conn 1.00 --inh-comp 3.0 --stdp cut_bs --act-gate-k-f 30

@@ -1,0 +1,7 @@
+k250_m400	--k-conn 0.25 --m-neurons 0.40 --inh-comp 3.00 --stdp off --act-gate-k-f 30
+k200_m400	--k-conn 0.20 --m-neurons 0.40 --inh-comp 3.75 --stdp off --act-gate-k-f 30
+k150_m400	--k-conn 0.15 --m-neurons 0.40 --inh-comp 5.00 --stdp off --act-gate-k-f 30
+k100_m400	--k-conn 0.10 --m-neurons 0.40 --inh-comp 7.50 --stdp off --act-gate-k-f 30
+k200_m375	--k-conn 0.20 --m-neurons 0.375 --inh-comp 3.75 --stdp off --act-gate-k-f 30
+k200_m350	--k-conn 0.20 --m-neurons 0.35 --inh-comp 3.75 --stdp off --act-gate-k-f 30
+k200_m300	--k-conn 0.20 --m-neurons 0.30 --inh-comp 3.75 --stdp off --act-gate-k-f 30
