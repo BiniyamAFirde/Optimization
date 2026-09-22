@@ -1,0 +1,31 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+cpg_e8f.py -- roadmap node E8f: final recipe (gait-scheduled RG-F), held-out seeds
+=========================================================================
+
+Thin layer on cpg_e2.py -> cpg_e1.py -> cpg_e0.py -> cpg_small.py v1.2.
+No new presets; E3 varies flags the runner passes on top of --preset n100:
+
+  --indeg-min K            minimum inputs per neuron on every Izhikevich-source
+                           pathway (cpg_small v1.2). E2 showed all of them sit at
+                           K = 1 at 100 neurons, for any k <= 0.6.
+  --indeg-min-conserve     split the same total weight over the K inputs
+                           (mean drive unchanged, seed variance down)
+  --inh-comp G             gain on E -> InE -> F (RG-E->InE and InE->RG-F), recipe 3.75
+  --inh-comp-f G           gain on F -> InF -> E (RG-F->InF and InF->RG-E), recipe 1.0
+"""
+import os
+import sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+import cpg_e2  # noqa: E402,F401  (registers n240/n180/n140/n100)
+import cpg_e0 as W  # noqa: E402
+
+W.E0_VERSION = "cpg_e8f 1.0 (final recipe: n100, floor 4, RG-F d 4 at 350-520 ms, c -50 d 2 at 780 ms; cpg_small 1.3)"
+
+if __name__ == "__main__":
+    if "--preset" not in sys.argv and "--chunk-ms" not in sys.argv:
+        sys.argv[1:1] = ["--chunk-ms", "100"]
+    sys.exit(W.main())
